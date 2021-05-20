@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Blue Pale Dot - Podcast</title>
 <link rel="stylesheet" type="text/css" href="styles/style.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -48,10 +48,10 @@
 			<label for="menu" class="menu-toggle">☰</label>
 			<input type="checkbox" id="menu" class="menu-checkbox"/>
 			<ul class="menu">
-				<a href="#"><li>Episodios</li></a>
-				<a href="#"><li>Nosotros</li></a>
-				<a href="#"><li>Entrevistas</li></a>
-				<a href="#"><li>Tópicos</li></a>
+				<a href="#episodios"><li>Episodios</li></a>
+				<a href="#nosotros"><li>Nosotros</li></a>
+				<a href="#entrevistas"><li>Entrevistas</li></a>
+				<a href="#topicos"><li>Tópicos</li></a>
 			</ul>
 
 		</nav>		
@@ -62,7 +62,7 @@
 			<p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
 			<button>CONOCÉ MÁS</button>
 		</div>
-		<div class="container container-podcast">
+		<div class="container container-podcast" id="episodios">
 			<div class="background-polygon">
 			</div>
 			<div class="container-inner">
@@ -77,13 +77,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="container container-inner container-about-us ">
+		<div class="container container-inner container-about-us" id="nosotros">
 			<img src="images/phone.png" alt="Celular con foto The secret history of women in coding">
 			<div class="about-us-text"><h2>De dónde venimos</h2>
 			<p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
 			<p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p></div>
 		</div>
-		<div class="container">
+		<div class="container" id="entrevistas">
 			<div class="container-inner">
 				<h2>Invitadas/os estelares</h2>
 			</div>
@@ -96,7 +96,7 @@
 				<img src="images/susan-kare.png" alt="En escala de grises, mujer sentada frente a un escritorio con ordenadores detrás">
 			</div>
 		</div>
-		<div class="container container-inner container-themes">
+		<div class="container container-inner container-themes" id="topicos">
 			<h2>Algunos de nuestros temas</h2>
 			<div class="container-themes-icons">
 				<div class="themes-box">
