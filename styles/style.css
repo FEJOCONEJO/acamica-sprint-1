@@ -81,7 +81,14 @@ header svg {
 .menu-checkbox, .menu {
     display: none;
 	height: 0;
-
+	transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	transition: all .4s ease-out;
+	-moz-transition: all .4s ease-out;
+	-webkit-transition: all .4s ease-out;
+	-o-transition: all .4s ease-out;
 }
 
 .menu-checkbox:checked + .menu {
@@ -92,6 +99,10 @@ header svg {
 	background: #F2f2f2;
 	margin-top: 30px;
 	height: 100%;
+	transform: translateY(0);
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-o-transform: translateY(0);
 }
 
 .menu a {
@@ -105,8 +116,6 @@ header svg {
 	text-transform: uppercase;
 	padding: 20px 0;
 }
-
-/* CONTAINER FIRST */
 
 /*CONTAINER PODCAST*/
 .container-podcast .background-polygon {
