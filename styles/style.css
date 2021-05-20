@@ -134,6 +134,7 @@ img {
 .container-photos {
 	display: flex;
 	flex-wrap: wrap;
+	height: 100%;
 }
 
 /*CONTAINER ICONOGRAPHY*/
